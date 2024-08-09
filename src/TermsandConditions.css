@@ -1,0 +1,38 @@
+
+.terms-and-conditions {
+    background-image: url('https://img.freepik.com/free-vector/soft-blurred-background_1034-273.jpg');
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Maintain existing styles */
+.faq h1,
+.privacy-policy h1,
+.terms-and-conditions h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq h2,
+.privacy-policy h2,
+.terms-and-conditions h2 {
+    margin-top: 20px;
+}
+
+.faq p,
+.privacy-policy p,
+.terms-and-conditions p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.privacy-policy ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

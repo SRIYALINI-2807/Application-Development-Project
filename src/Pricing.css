@@ -1,0 +1,118 @@
+/* Pricing.css */
+
+.pricing-page {
+  font-family: Arial, sans-serif;
+}
+
+.pricing-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.pricing-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pricing-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pricing-price {
+  font-size: 36px;
+  color: #b78a39;
+  margin: 10px 0;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-features li {
+  margin: 10px 0;
+}
+
+.pricing-button {
+  background-color: #c08f3a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pricing-button:hover {
+  background-color: #ca8847;
+}
+
+.features-section {
+  padding: 40px;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  padding: 20px 0; /* Adjust padding if needed */
+}
+
+.feature-slide {
+  flex: 0 0 auto;
+  width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 20px;
+  scroll-snap-align: start;
+}
+
+.feature-image {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.feature-info {
+  margin-top: 20px;
+}
+
+.feature-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feature-info p {
+  font-size: 16px;
+}

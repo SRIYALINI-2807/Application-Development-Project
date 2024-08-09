@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-us-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #7a5917);
+    color: white;
+    border-bottom: 3px solid white;
+  }
+  
+  .header-section {
+    flex: 1;
+  }
+  
+  .header-section.left {
+    text-align: left;
+  }
+  
+  .header-section.right {
+    text-align: right;
+  }
+  
+  .portal-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+  }
+  
+  .nav-link:hover {
+    color: #ffcccb;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f4f4; /* Grey background */
+    color: black; /* Black text */
+    text-align: center;
+  }
+  
+  .content-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .content-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .content-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .content-text strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #7a5917);
+  }
+  
+  .footer-links a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-media a {
+    margin: 0 20px;
+    font-size: 24px;
+    color: white;
+  }
+  
